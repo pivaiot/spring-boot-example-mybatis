@@ -1,0 +1,12 @@
+{% macro contentHeader(pageHeader, description, iconCss, parent) %}
+<section class="content-header">
+    <h1>
+        {{pageHeader}}
+        <small>{{description}}</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="{{iconCss}}"></i> {{parent}}</a></li>
+        <li class="active">{{pageHeader}}</li>
+    </ol>
+</section>
+{% endmacro %}
