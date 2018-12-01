@@ -1,4 +1,4 @@
-# Spring Boot JPA Example
+# Spring Boot Mybatis Example
 
 ## Purpose
 
@@ -11,7 +11,7 @@ simply use this one as a starting point and build on top of it.
 The project is a working application with a minimal setup. It contains:
   * application skeleton
     * web
-    * jpa
+    * mybatis
     * redis
     * AMQP/Kafka
   * common plugins and libraries
