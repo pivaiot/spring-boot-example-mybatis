@@ -1,4 +1,4 @@
-# Spring Boot Starter Project
+# Spring Boot JPA Example
 
 ## Purpose
 
@@ -11,9 +11,8 @@ simply use this one as a starting point and build on top of it.
 The project is a working application with a minimal setup. It contains:
   * application skeleton
     * web
-    * mybatis
+    * jpa
     * redis
     * AMQP/Kafka
-    * [pebble](https://github.com/PebbleTemplates/pebble), Server Side Template Engine
   * common plugins and libraries
   * swagger configuration for api documentation
